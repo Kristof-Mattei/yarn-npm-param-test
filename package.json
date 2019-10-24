@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "main": "./print-params.sh --inner",
-    "via_yarn": "yarn main --outer",
-    "via_npm": "npm run main --outer"
+    "via_yarn": "yarn main -- --outer",
+    "via_npm": "npm run main -- --outer"
   }
 }
